@@ -10,5 +10,5 @@ end
 
 def current_player(board)
   x = turn_counter(board)
-  x.even? ? puts "It is now player X's turn." : "It is now player O's turn."
+  x.even? ? "It is now player X's turn." : "It is now player O's turn."
 end
