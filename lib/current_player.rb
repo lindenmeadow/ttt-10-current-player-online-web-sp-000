@@ -4,12 +4,11 @@ def turn_count(board)
     if count == "X" || count == "O"
       counter += 1
     end
-  end
     return counter
+  end
 end
 
 def current_player(board)
   x = turn_counter(board)
   x % 2 == 0 ? puts "It is now player X's turn." : puts "It is now player O's turn."
-end
 end
